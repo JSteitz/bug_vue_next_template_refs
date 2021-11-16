@@ -7,5 +7,9 @@
     "rollup-plugin-vue": "^6.0.0",
     "typescript": "^4.4.4",
     "vue": "^3.2.22"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "release": "rollup -c --environment BUILD:production"
   }
 }
